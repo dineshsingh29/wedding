@@ -1,0 +1,43 @@
+.col1, .col3 {
+	float:left
+}
+.col2
+{
+	float: right;
+}
+.cols {    width: 49%;
+    display: inline-block;}
+
+/* index.html */
+#page1 .inner {min-height:245px}
+
+
+@media screen and (min-width: 620px) {
+   #page1 header {min-height:723px}
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+   #page1 header {min-height:434px}
+}
+@media screen and (min-width: 420px) and (max-width: 520px) {
+   #page1 header {min-height:534px}
+}
+@media screen and (min-width: 520px) and (max-width: 620px) {
+   #page1 header {min-height:634px}
+}
+
+/* index-1.html */
+/* index-2.html */
+/* index-3.html */
+#page4 .cols {width:410px}
+#page4 .col1 {width:350px}
+#page4 .pad_left2 {padding-left:80px}
+/* index-4.html */
+#page5 .pad_left2 {padding-left:38px}
+#page5 header {height:691px}
+
+/* index-5.html */
+#page6 .col1 {width:578px}
+#page6 .col2 {width:250px}
+#page6 .pad_left2 {padding-left:70px}
+/* index-6.html */
